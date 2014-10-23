@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NOVENA_LCD_CONN
+D Novena LCD Connector from point of view of adapter board
+F FPC MOLEX 51296-5494
+$ENDCMP
+#
+#End Doc Library

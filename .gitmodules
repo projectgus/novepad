@@ -1,0 +1,3 @@
+[submodule "ftlibrary"]
+	path = ftlibrary
+	url = ssh://git@github.com/freetronics/kicad_library.git
