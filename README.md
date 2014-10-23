@@ -24,7 +24,8 @@ Designed using KiCad (2014-07-25, any recent version should be OK to open the fi
 ## Novena designs
 
 Yay OSHW!
-http://kosagi.com/w/index.php?title=Novena_PVT_Design_Source
+
+* http://kosagi.com/w/index.php?title=Novena_PVT_Design_Source
 
 ## iPad display/connectors
 
@@ -34,5 +35,7 @@ http://kosagi.com/w/index.php?title=Novena_PVT_Design_Source
 ## Photos of IT6251
 
 You know a chip is going to be fun when **photos** of PCBs that use it become a useful resource to compliment the datasheet.
-* [overclock.net post with high-res photo of top of board](http://www.overclock.net/t/1225919/yamakasi-catleap-monitor-club/2110#post_16887300)* [overclock.net lower-res photos incl back of board (no components)](http://www.overclock.net/t/1304102/catleap-q270-replacement-board#post_18163044)
+
+* [overclock.net post with high-res photo of top of board](http://www.overclock.net/t/1225919/yamakasi-catleap-monitor-club/2110#post_16887300)
+* [overclock.net lower-res photos incl back of board (no components)](http://www.overclock.net/t/1304102/catleap-q270-replacement-board#post_18163044)
 
