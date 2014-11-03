@@ -661,4 +661,7 @@ $EndComp
 Wire Wire Line
 	9050 1150 9100 1150
 Connection ~ 9550 1150
+Wire Wire Line
+	2100 6300 2200 6300
+Connection ~ 2200 6300
 $EndSCHEMATC
