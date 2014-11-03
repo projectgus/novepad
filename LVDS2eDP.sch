@@ -1563,4 +1563,6 @@ Text Label 4700 7050 0    60   ~ 0
 ADDR
 Wire Wire Line
 	5050 6400 5050 6500
+Text Notes 4750 800  0    157  ~ 0
+LVDS to eDP Converter
 $EndSCHEMATC

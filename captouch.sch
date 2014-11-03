@@ -41,7 +41,7 @@ Title "Novepad"
 Date ""
 Rev "v0.1"
 Comp ""
-Comment1 "Contains elements derived from Andrew \"Bunnie\" Huang \"LVDS to eDP adapter DVT1\""
+Comment1 ""
 Comment2 ""
 Comment3 "Creative Commons Attribution Sharealike License"
 Comment4 "(C) Angus Gratton 2014"
@@ -1482,4 +1482,6 @@ Connection ~ 7050 2150
 Connection ~ 7900 2150
 Wire Wire Line
 	7900 2150 7750 2150
+Text Notes 5800 850  0    157  ~ 0
+Optional CapTouch Interface
 $EndSCHEMATC
