@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Tue 11 Nov 2014 13:55:25 AEDT
+Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Tue 11 Nov 2014 13:58:16 AEDT
 
 BeginCmp
 TimeStamp = /543B8BB7/54489794;
@@ -417,14 +417,14 @@ BeginCmp
 TimeStamp = /543B8217;
 Reference = J101;
 ValeurCmp = NOVENA_LCD_CONN;
-IdModule  = novepad:MOLEX_502250_8051;
+IdModule  = novepad:MOLEX_51926_5494;
 EndCmp
 
 BeginCmp
 TimeStamp = /543B8313;
 Reference = J102;
 ValeurCmp = LP097QX1_CONN;
-IdModule  = novepad:MOLEX_51926_5494;
+IdModule  = novepad:MOLEX_502250_8051;
 EndCmp
 
 BeginCmp
