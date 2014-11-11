@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name FT)(type KiCad)(uri ftlibrary/freetronics_kicad_pcb_lib.pretty)(options "")(descr ""))
+  (lib (name novepad)(type KiCad)(uri novepad_parts.pretty)(options "")(descr ""))
+)
