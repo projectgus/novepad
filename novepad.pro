@@ -1,5 +1,5 @@
-update=Thu 23 Oct 2014 13:22:36 AEDT
-last_client=eeschema
+update=Wed 26 Nov 2014 15:17:51 AEDT
+last_client=kicad
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -46,3 +46,25 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
+[general]
+version=1
+[pcbnew]
+version=1
+PageLayoutDescrFile=
+LastNetListRead=
+UseCmpFile=1
+PadDrill=0
+PadDrillOvalY=0
+PadSizeH=3.95
+PadSizeV=3.95
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1.5
+ModuleTextSizeH=1.5
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.2
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.15
+ModuleOutlineThickness=0.15

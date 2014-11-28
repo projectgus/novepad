@@ -391,7 +391,7 @@ U 1 1 54473874
 P 6600 3700
 F 0 "C403" H 6600 3800 40  0000 L CNN
 F 1 "1uF 10V" H 6606 3615 40  0000 L CNN
-F 2 "FT:1206" H 6638 3550 30  0001 C CNN
+F 2 "FT:0603" H 6638 3550 30  0001 C CNN
 F 3 "" H 6600 3700 60  0000 C CNN
 	1    6600 3700
 	1    0    0    -1  
@@ -402,7 +402,7 @@ U 1 1 544738FD
 P 7700 3700
 F 0 "C407" H 7700 3800 40  0000 L CNN
 F 1 "1uF 10V" H 7706 3615 40  0000 L CNN
-F 2 "FT:1206" H 7738 3550 30  0001 C CNN
+F 2 "FT:0603" H 7738 3550 30  0001 C CNN
 F 3 "" H 7700 3700 60  0000 C CNN
 	1    7700 3700
 	1    0    0    -1  
@@ -430,7 +430,7 @@ U 1 1 54476419
 P 7350 3700
 F 0 "C406" H 7350 3800 40  0000 L CNN
 F 1 "1uF 10V" H 7356 3615 40  0000 L CNN
-F 2 "FT:1206" H 7388 3550 30  0001 C CNN
+F 2 "FT:0603" H 7388 3550 30  0001 C CNN
 F 3 "" H 7350 3700 60  0000 C CNN
 	1    7350 3700
 	1    0    0    -1  
@@ -443,7 +443,7 @@ U 1 1 544766A9
 P 8100 3700
 F 0 "C409" H 8100 3800 40  0000 L CNN
 F 1 "1uF 10V" H 8106 3615 40  0000 L CNN
-F 2 "FT:1206" H 8138 3550 30  0001 C CNN
+F 2 "FT:0603" H 8138 3550 30  0001 C CNN
 F 3 "" H 8100 3700 60  0000 C CNN
 	1    8100 3700
 	1    0    0    -1  
@@ -456,7 +456,7 @@ U 1 1 54476B83
 P 6900 3700
 F 0 "C404" H 6900 3800 40  0000 L CNN
 F 1 "1uF 10V" H 6906 3615 40  0000 L CNN
-F 2 "FT:1206" H 6938 3550 30  0001 C CNN
+F 2 "FT:0603" H 6938 3550 30  0001 C CNN
 F 3 "" H 6900 3700 60  0000 C CNN
 	1    6900 3700
 	1    0    0    -1  
@@ -522,7 +522,7 @@ U 1 1 54477EB2
 P 2150 1050
 F 0 "C402" H 2150 1150 40  0000 L CNN
 F 1 "100nF 10V" H 2156 965 40  0000 L CNN
-F 2 "SMD_Packages:SMD-0402_c" H 2188 900 30  0001 C CNN
+F 2 "FT:C0402" H 2188 900 30  0001 C CNN
 F 3 "" H 2150 1050 60  0000 C CNN
 	1    2150 1050
 	1    0    0    -1  
@@ -892,12 +892,9 @@ Wire Wire Line
 Wire Wire Line
 	2150 750  2150 850 
 Wire Wire Line
-	1800 1300 2550 1300
-Wire Wire Line
 	2150 1300 2150 1250
 Wire Wire Line
 	1850 1300 1850 1250
-Connection ~ 2150 1300
 Wire Wire Line
 	1800 1300 1800 1350
 Connection ~ 1850 1300
@@ -911,7 +908,6 @@ Wire Wire Line
 	2700 1600 2700 1800
 Wire Wire Line
 	1750 1450 2800 1450
-Connection ~ 2550 1300
 Wire Wire Line
 	700  3200 750  3200
 Wire Wire Line
@@ -1233,7 +1229,7 @@ LHS
 Text Notes 10400 1750 0    98   ~ 0
 RHS
 Text Notes 3500 1050 0    60   ~ 0
-To test non-USB operation:\n- Pull PSEL low\n- Add 0 ohm jumper to 3.3V\n- Remove VBUS inductor
+To test non-USB operation:\n- Remove R406, place R405 to pull PSEL low\n- Place 0 ohm jumper R407 between VDD3 & 3.3V\n- Remove VBUS inductor L401
 $Comp
 L FT5816LPC U401
 U 1 1 54468C9C
@@ -1286,7 +1282,7 @@ L R R402
 U 1 1 54478C26
 P 1400 7250
 F 0 "R402" V 1480 7250 40  0000 C CNN
-F 1 "0R DNP" V 1407 7251 40  0000 C CNN
+F 1 "0R" V 1407 7251 40  0000 C CNN
 F 2 "FT:0603" V 1330 7250 30  0001 C CNN
 F 3 "" H 1400 7250 30  0000 C CNN
 	1    1400 7250
@@ -1487,4 +1483,18 @@ Optional CapTouch Interface
 Connection ~ 4100 7300
 Text Notes 6300 4750 0    60   ~ 0
 Note: both TX and RX order is reversed for easier routing.\nShould mean X and Y axes are reversed in reaback.
+Wire Wire Line
+	1800 1300 2150 1300
+Text Label 2550 1400 1    60   ~ 0
+PSEL
+Text Label 2900 1700 1    60   ~ 0
+VBUS
+Text Label 2050 1450 0    60   ~ 0
+D-
+Text Label 2050 1600 0    60   ~ 0
+D+
+Text Label 1400 6900 1    60   ~ 0
+RX_UNUSED
+Text Label 5900 6400 0    60   ~ 0
+TXUNUSED
 $EndSCHEMATC

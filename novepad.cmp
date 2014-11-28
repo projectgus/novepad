@@ -1,31 +1,31 @@
-Cmp-Mod V01 Created by Cvpcb (2014-11-09 BZR 5259)-product   date = Mon 17 Nov 2014 16:59:25 AEDT
+Cmp-Mod V01 Created by Cvpcb (2014-11-24 BZR 5301)-product   date = Thu 27 Nov 2014 19:14:22 AEDT
 
 BeginCmp
 TimeStamp = /543B8BB7/54489794;
 Reference = C201;
 ValeurCmp = 4.7uF 25V;
-IdModule  = FT:1206;
+IdModule  = FT:0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /543B8BB7/544897A1;
 Reference = C202;
 ValeurCmp = 1uF 25V;
-IdModule  = FT:1206;
+IdModule  = FT:0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /543B8BB7/5448047F;
 Reference = C203;
 ValeurCmp = 4.7uF 25V;
-IdModule  = FT:1206;
+IdModule  = FT:0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /543B8BB7/5448048D;
 Reference = C204;
 ValeurCmp = 1uF 25V;
-IdModule  = FT:1206;
+IdModule  = FT:0603;
 EndCmp
 
 BeginCmp
@@ -46,14 +46,14 @@ BeginCmp
 TimeStamp = /543B8BB7/544897F1;
 Reference = C207;
 ValeurCmp = 4.7uF 25V;
-IdModule  = FT:1206;
+IdModule  = FT:0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /543B8BB7/544804E0;
 Reference = C208;
 ValeurCmp = 4.7uF 25V;
-IdModule  = FT:1206;
+IdModule  = FT:0805;
 EndCmp
 
 BeginCmp
@@ -94,13 +94,6 @@ EndCmp
 BeginCmp
 TimeStamp = /543B8BCE/54498AF8;
 Reference = C306;
-ValeurCmp = 100nF 25V X5R;
-IdModule  = SMD_Packages:SMD-0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /543B8BCE/54494F58;
-Reference = C307;
 ValeurCmp = 100nF 25V X5R;
 IdModule  = SMD_Packages:SMD-0402_c;
 EndCmp
@@ -162,13 +155,6 @@ IdModule  = SMD_Packages:SMD-0402_c;
 EndCmp
 
 BeginCmp
-TimeStamp = /543B8BCE/544952C4;
-Reference = C316;
-ValeurCmp = 100nF 25V X5R;
-IdModule  = SMD_Packages:SMD-0402_c;
-EndCmp
-
-BeginCmp
 TimeStamp = /543B8BCE/5448E6F1;
 Reference = C317;
 ValeurCmp = 100nF 25V X5R;
@@ -178,20 +164,6 @@ EndCmp
 BeginCmp
 TimeStamp = /543B8BCE/5448DB4E;
 Reference = C318;
-ValeurCmp = 100nF 25V X5R;
-IdModule  = SMD_Packages:SMD-0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /543B8BCE/5448DDEE;
-Reference = C319;
-ValeurCmp = 100nF 25V X5R;
-IdModule  = SMD_Packages:SMD-0402_c;
-EndCmp
-
-BeginCmp
-TimeStamp = /543B8BCE/5448E614;
-Reference = C320;
 ValeurCmp = 100nF 25V X5R;
 IdModule  = SMD_Packages:SMD-0402_c;
 EndCmp
@@ -298,21 +270,21 @@ BeginCmp
 TimeStamp = /543EDBFB/54477EB2;
 Reference = C402;
 ValeurCmp = 100nF 10V;
-IdModule  = SMD_Packages:SMD-0402_c;
+IdModule  = FT:C0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /543EDBFB/54473874;
 Reference = C403;
 ValeurCmp = 1uF 10V;
-IdModule  = FT:1206;
+IdModule  = FT:0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /543EDBFB/54476B83;
 Reference = C404;
 ValeurCmp = 1uF 10V;
-IdModule  = FT:1206;
+IdModule  = FT:0603;
 EndCmp
 
 BeginCmp
@@ -326,14 +298,14 @@ BeginCmp
 TimeStamp = /543EDBFB/54476419;
 Reference = C406;
 ValeurCmp = 1uF 10V;
-IdModule  = FT:1206;
+IdModule  = FT:0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /543EDBFB/544738FD;
 Reference = C407;
 ValeurCmp = 1uF 10V;
-IdModule  = FT:1206;
+IdModule  = FT:0603;
 EndCmp
 
 BeginCmp
@@ -347,7 +319,7 @@ BeginCmp
 TimeStamp = /543EDBFB/544766A9;
 Reference = C409;
 ValeurCmp = 1uF 10V;
-IdModule  = FT:1206;
+IdModule  = FT:0603;
 EndCmp
 
 BeginCmp
@@ -661,7 +633,7 @@ EndCmp
 BeginCmp
 TimeStamp = /543EDBFB/54478C26;
 Reference = R402;
-ValeurCmp = 0R DNP;
+ValeurCmp = 0R;
 IdModule  = FT:0603;
 EndCmp
 
