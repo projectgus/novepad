@@ -171,65 +171,65 @@ F 3 "" H 1000 3200 30  0000 C CNN
 $EndComp
 Text Label 700  3150 1    60   ~ 0
 VDD3
-Text Label 1550 6300 2    60   ~ 0
-RX1
-Text Label 1550 6200 2    60   ~ 0
-RX2
-Text Label 1550 6100 2    60   ~ 0
-RX3
-Text Label 1550 6000 2    60   ~ 0
-RX4
-Text Label 1550 5900 2    60   ~ 0
-RX5
-Text Label 1550 5800 2    60   ~ 0
-RX6
-Text Label 1550 5700 2    60   ~ 0
-RX7
-Text Label 1550 5600 2    60   ~ 0
-RX8
-Text Label 1550 5500 2    60   ~ 0
-RX9
-Text Label 1550 5400 2    60   ~ 0
-RX10
-Text Label 1550 5300 2    60   ~ 0
-RX11
-Text Label 1550 5200 2    60   ~ 0
-RX12
-Text Label 1550 5100 2    60   ~ 0
-RX13
-Text Label 1550 5000 2    60   ~ 0
-RX14
-Text Label 1550 4900 2    60   ~ 0
-RX15
-Text Label 1550 4800 2    60   ~ 0
-RX16
-Text Label 1550 4700 2    60   ~ 0
-RX17
-Text Label 1550 4600 2    60   ~ 0
-RX18
-Text Label 1550 4500 2    60   ~ 0
-RX19
-Text Label 1550 4400 2    60   ~ 0
-RX20
-Text Label 1550 4300 2    60   ~ 0
-RX21
-Text Label 1550 4200 2    60   ~ 0
-RX22
-Text Label 1550 4100 2    60   ~ 0
-RX23
-Text Label 1550 4000 2    60   ~ 0
-RX24
-Text Label 1550 3900 2    60   ~ 0
-RX25
-Text Label 1550 3800 2    60   ~ 0
-RX26
-Text Label 1550 3700 2    60   ~ 0
-RX27
-Text Label 1550 3600 2    60   ~ 0
-RX28
-Text Label 1550 3500 2    60   ~ 0
-RX29
 Text Label 1550 3400 2    60   ~ 0
+RX1
+Text Label 1550 3500 2    60   ~ 0
+RX2
+Text Label 1550 3600 2    60   ~ 0
+RX3
+Text Label 1550 3700 2    60   ~ 0
+RX4
+Text Label 1550 3800 2    60   ~ 0
+RX5
+Text Label 1550 3900 2    60   ~ 0
+RX6
+Text Label 1550 4000 2    60   ~ 0
+RX7
+Text Label 1550 4100 2    60   ~ 0
+RX8
+Text Label 1550 4200 2    60   ~ 0
+RX9
+Text Label 1550 4300 2    60   ~ 0
+RX10
+Text Label 1550 4400 2    60   ~ 0
+RX11
+Text Label 1550 4500 2    60   ~ 0
+RX12
+Text Label 1550 4600 2    60   ~ 0
+RX13
+Text Label 1550 4700 2    60   ~ 0
+RX14
+Text Label 1550 4800 2    60   ~ 0
+RX15
+Text Label 1550 4900 2    60   ~ 0
+RX16
+Text Label 1550 5000 2    60   ~ 0
+RX17
+Text Label 1550 5100 2    60   ~ 0
+RX18
+Text Label 1550 5200 2    60   ~ 0
+RX19
+Text Label 1550 5300 2    60   ~ 0
+RX20
+Text Label 1550 5400 2    60   ~ 0
+RX21
+Text Label 1550 5500 2    60   ~ 0
+RX22
+Text Label 1550 5600 2    60   ~ 0
+RX23
+Text Label 1550 5700 2    60   ~ 0
+RX24
+Text Label 1550 5800 2    60   ~ 0
+RX25
+Text Label 1550 5900 2    60   ~ 0
+RX26
+Text Label 1550 6000 2    60   ~ 0
+RX27
+Text Label 1550 6100 2    60   ~ 0
+RX28
+Text Label 1550 6200 2    60   ~ 0
+RX29
+Text Label 1550 6300 2    60   ~ 0
 RX30
 $Comp
 L GND #PWR047
@@ -653,65 +653,65 @@ Wire Wire Line
 Wire Wire Line
 	700  3200 700  3100
 Wire Wire Line
-	1700 6300 1400 6300
-Wire Wire Line
-	1700 6200 1400 6200
-Wire Wire Line
-	1700 6100 1400 6100
-Wire Wire Line
-	1700 6000 1400 6000
-Wire Wire Line
-	1700 5900 1400 5900
-Wire Wire Line
-	1700 5800 1400 5800
-Wire Wire Line
-	1700 5700 1400 5700
-Wire Wire Line
-	1700 5600 1400 5600
-Wire Wire Line
-	1700 5500 1400 5500
-Wire Wire Line
-	1700 5400 1400 5400
-Wire Wire Line
-	1700 5300 1400 5300
-Wire Wire Line
-	1700 5200 1400 5200
-Wire Wire Line
-	1700 5100 1400 5100
-Wire Wire Line
-	1700 5000 1400 5000
-Wire Wire Line
-	1700 4900 1400 4900
-Wire Wire Line
-	1700 4800 1400 4800
-Wire Wire Line
-	1700 4700 1400 4700
-Wire Wire Line
-	1700 4600 1400 4600
-Wire Wire Line
-	1700 4500 1400 4500
-Wire Wire Line
-	1700 4400 1400 4400
-Wire Wire Line
-	1700 4300 1400 4300
-Wire Wire Line
-	1700 4200 1400 4200
-Wire Wire Line
-	1700 4100 1400 4100
-Wire Wire Line
-	1700 4000 1400 4000
-Wire Wire Line
-	1700 3900 1400 3900
-Wire Wire Line
-	1700 3800 1400 3800
-Wire Wire Line
-	1700 3700 1400 3700
-Wire Wire Line
-	1700 3600 1400 3600
+	1700 3400 1400 3400
 Wire Wire Line
 	1700 3500 1400 3500
 Wire Wire Line
-	1700 3400 1400 3400
+	1700 3600 1400 3600
+Wire Wire Line
+	1700 3700 1400 3700
+Wire Wire Line
+	1700 3800 1400 3800
+Wire Wire Line
+	1700 3900 1400 3900
+Wire Wire Line
+	1700 4000 1400 4000
+Wire Wire Line
+	1700 4100 1400 4100
+Wire Wire Line
+	1700 4200 1400 4200
+Wire Wire Line
+	1700 4300 1400 4300
+Wire Wire Line
+	1700 4400 1400 4400
+Wire Wire Line
+	1700 4500 1400 4500
+Wire Wire Line
+	1700 4600 1400 4600
+Wire Wire Line
+	1700 4700 1400 4700
+Wire Wire Line
+	1700 4800 1400 4800
+Wire Wire Line
+	1700 4900 1400 4900
+Wire Wire Line
+	1700 5000 1400 5000
+Wire Wire Line
+	1700 5100 1400 5100
+Wire Wire Line
+	1700 5200 1400 5200
+Wire Wire Line
+	1700 5300 1400 5300
+Wire Wire Line
+	1700 5400 1400 5400
+Wire Wire Line
+	1700 5500 1400 5500
+Wire Wire Line
+	1700 5600 1400 5600
+Wire Wire Line
+	1700 5700 1400 5700
+Wire Wire Line
+	1700 5800 1400 5800
+Wire Wire Line
+	1700 5900 1400 5900
+Wire Wire Line
+	1700 6000 1400 6000
+Wire Wire Line
+	1700 6100 1400 6100
+Wire Wire Line
+	1700 6200 1400 6200
+Wire Wire Line
+	1700 6300 1400 6300
 Wire Wire Line
 	1700 6400 1400 6400
 Wire Wire Line
@@ -1389,24 +1389,24 @@ $EndComp
 $Comp
 L CONN_1 TP402
 U 1 1 5447C3A6
-P 1250 5700
-F 0 "TP402" H 1330 5700 40  0000 L CNN
-F 1 "CONN_1" H 1250 5755 30  0001 C CNN
-F 2 "novepad:SMD_TEST_POINT" H 1250 5700 60  0001 C CNN
-F 3 "" H 1250 5700 60  0000 C CNN
-	1    1250 5700
-	-1   0    0    -1  
+P 1250 4000
+F 0 "TP402" H 1330 4000 40  0000 L CNN
+F 1 "CONN_1" H 1250 4055 30  0001 C CNN
+F 2 "novepad:SMD_TEST_POINT" H 1250 4000 60  0001 C CNN
+F 3 "" H 1250 4000 60  0000 C CNN
+	1    1250 4000
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 TP403
 U 1 1 5447C963
-P 1250 5600
-F 0 "TP403" H 1330 5600 40  0000 L CNN
-F 1 "CONN_1" H 1250 5655 30  0001 C CNN
-F 2 "novepad:SMD_TEST_POINT" H 1250 5600 60  0001 C CNN
-F 3 "" H 1250 5600 60  0000 C CNN
-	1    1250 5600
-	-1   0    0    -1  
+P 1250 4100
+F 0 "TP403" H 1330 4100 40  0000 L CNN
+F 1 "CONN_1" H 1250 4155 30  0001 C CNN
+F 2 "novepad:SMD_TEST_POINT" H 1250 4100 60  0001 C CNN
+F 3 "" H 1250 4100 60  0000 C CNN
+	1    1250 4100
+	-1   0    0    1   
 $EndComp
 $Comp
 L CONN_1 TP412
