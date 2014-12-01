@@ -7,7 +7,7 @@ Development of an adapter board design for [Kosagi Novena](http://kosagi.com/w/i
 
 Very closely modelled on Bunnie's existing Novena eDP adapter, with additions. LVDS connection cable from Novena should be the same on both boards.
 
-Designed using KiCad (2014-07-25, any recent version should be OK to open the files).
+Designed using KiCad (2014-07-25, any recent version should be OK to open the files). [Gerbers are available from the releases page](https://github.com/projectgus/novepad/releases/).
 
 # Additions to the Novena eDP design
 
@@ -15,7 +15,12 @@ Designed using KiCad (2014-07-25, any recent version should be OK to open the fi
 * Touch screen controller Focaltech [FT5816LPC](http://www.focaltech-systems.com/En/solutions.aspx?CateID=54) with i2c and USB interfaces. There's a strong chance this will never work (lack of public documentation on controller or digitizer).
 * 4 eDP lanes out of IT6251 eDP converter instead of the 2 used on Novena eDP board.
 
-# Board Stackup Notes
+# Notes
+
+* Has a lot of numbered test points and 0R resistors due to undocumented or unknown factors.
+* Has cut trace jumpers for some key power connections, can be cut to measure power consumption.
+
+# Board Stackup
 
 4 layer board, 1oz copper (35um). Desired stackup is:
 
@@ -27,15 +32,10 @@ Designed using KiCad (2014-07-25, any recent version should be OK to open the fi
 * 0.2mm prepreg
 * Back
 
-(This matches standard 4 layer stackup for my usual prototype PCB fab, [Hackvana](http://hackvana.com)).)
+(This matches standard 4 layer stackup for my usual prototype PCB supplier, [Hackvana](http://hackvana.com)).)
 
-100ohm differential microstrip traces (LVDS, eDP) are routed as 0.2mm trace / 0.15mm spacing (~8/6 imperial), at least where possible. This yields estimates in the range of 99.5-102ohm differential impedance depending on who you ask (assuming Er 4.4, calculated using [TNT Field Solver](http://mmtl.sourceforge.net/) and [Jean Nicolle's impedance calculator](http://www.fedevel.com/welldoneblog/2011/08/pcb-impedance-calculator-single-ended-differential-pair/).
+The 100 ohm differential microstrip traces (LVDS, eDP) are routed as 0.2mm trace / 0.15mm spacing (~8/6 imperial), at least where possible. This yields estimates in the range of 99.5-102ohm differential impedance depending on who you ask (assuming Er 4.4, calculated using [TNT Field Solver](http://mmtl.sourceforge.net/) and [Jean Nicolle's impedance calculator](http://www.fedevel.com/welldoneblog/2011/08/pcb-impedance-calculator-single-ended-differential-pair/).
 
-
-# Notes
-
-* Has a lot of numbered test points and 0R resistors due to undocumented or unknown factors.
-* Has cut trace jumpers for some key power connections, can be cut to measure power consumption.
 
 # Resources
 
